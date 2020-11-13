@@ -1,0 +1,12 @@
+.sectionDG{
+    background-image: url('./Definition\ Photos/download.jpg');
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textDG {
+    color: #000000;
+}

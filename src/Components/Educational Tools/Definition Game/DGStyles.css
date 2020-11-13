@@ -1,0 +1,106 @@
+/* CSS file for the Definition Game */
+
+/* Background section of the page */
+.DDGBackground {
+  background-image: url('./Definition\ Photos/2017-white-circles.jpg');
+  background-size: cover;
+}
+
+/* Large container is the large white box that contains the whole game. */
+.largeContainer {
+    border: 1px solid #00000034;
+    width: 1100px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+   
+  /* Title box is for the black box at the top which says "Definition Game" */
+  .titleBox {
+    background-color: #1a1a1a;
+    color:white;
+    padding: 20px;
+    font-size: 1.8em;
+    text-align: center;
+  }
+   
+  /* For the font of a question */
+  .question {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+   
+  /* Style of the box that holds the question and answer buttons */
+  .questionBox {
+    border: 1px solid #0000002a;
+    background-color: #f3f3f3;
+    margin-top: 5px;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+   
+  /* Style for an answer button */
+  .answerButton {
+    background-color: #1888ff;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 4px;
+    border: none;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  /* Changes the transparency of an answer button when it is hovered over as well as slides it slightly up and to the right. */
+  .answerButton:hover {
+    background-color: #1888ffab;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    transform: translate(1px, -1px);
+  }
+   
+  /* When all questions are answered and the replay screen is present, changes the height of the large container to 700px */
+  .scoreBoard {
+    position: relative;
+    height: 700px;
+  }
+   
+  /* Text on replay screen that displays your score */
+  .score {
+    position: absolute;
+    width: 1024px;
+    font-size: 3em;
+    top: 250px;
+    text-align: center;
+  }
+   
+  /* Small green button that says "Play Again?" */
+  .playAgainButton {
+    position: absolute;
+    font-size: 1.4em;
+    padding: 10px;
+    top: 350px;
+    background-color: #00b90f;
+    color: white;
+    width: 150px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+  }
+  /* Changes transparency of play again button and translates it up and to the right slightly */
+  .playAgainButton:hover {
+    background-color: #00b90fab;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    transform: translate(1px, -1px);
+  }
+   
+   
+  

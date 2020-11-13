@@ -1,0 +1,74 @@
+/* Colour of winning message */
+.message{
+  color: #000;
+}
+
+/* header 2 padding and margin */
+h2{
+  padding: 0;
+  margin: 0;
+}
+
+/* Board container settings */
+.board-container{
+  width: 60%;
+  margin: 10px auto;
+  text-align: left;
+}
+
+/* Memory Card settings */
+.memoryCard{
+  height: 80px;
+  width: 120px;
+  border: 1.5px solid transparent;
+  transition: all .3s ease-in;
+}
+
+/* Settings when cards are hovered */
+.memoryCard.front:hover{
+  cursor: pointer;
+  border: 1.5px solid rgb(40,111,251, 0.5);
+}
+
+/* Start/play again button size */
+.btn {
+  font-size: 20px;
+  padding: 14px 185px;
+  background: #000000;
+  border: 4px solid #035A96;
+  color: #ffffff;
+}
+
+/* Button settings when hovered */
+.btn:hover{
+  background: rgb(40,111,251, 0.5);
+  border: 1px solid rgb(40,111,251, 0.5);
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+/* Makes container flex style */
+.flex-container {
+  display: flex;
+}
+
+/* playing cards page spacing */
+.playingCards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Card settings */
+.card{
+  flex: 1 0 calc(21% - 1em);
+  padding: 6px 0 6px 0;
+}
+
+/* Menu settings */
+.menu{
+  margin: 0 auto;
+  text-align: center;
+}
+ 
+

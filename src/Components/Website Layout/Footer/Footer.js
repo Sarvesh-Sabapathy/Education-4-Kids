@@ -1,0 +1,103 @@
+import React from 'react';
+import './Footer.css';
+import { Link } from 'react-router-dom';
+
+// Displays footer section found on all pages of the site
+function Footer() {
+  return (
+    <div className='footer-container'>
+      <section className='footer-subscription'>
+        <div className='input-areas'>
+        </div>
+      </section>
+      <div class='footer-links'>
+        <div className='footer-link-wrapper'>
+          {/* Contact us footer section */}
+          <div class='footer-link-items'>
+            <h2>Contact Us</h2>
+            <Link to='/About-Us'>ssaba2@ocdsb.ca</Link>
+            <Link to='/About-Us'>nwrig2@ocdsb.ca</Link>
+          </div>
+          {/* Educational Tools footer section */}
+          <div class='footer-link-items'>
+            <h2>Educational Tools</h2>
+            <Link to='/Definition-Game'>Definition Game</Link>
+            <Link to='/Memory-Game'>Memory Game</Link>
+            <Link to='/Objects-Game'>Objects Game</Link>
+          </div>
+          {/* Resources footer section */}
+          <div class='footer-link-items'>
+            <h2>Resources</h2>
+            <Link to='/Resources'>FAQ Page</Link>
+            <Link to='/Resources'>Help Center</Link>
+            <Link to='/Resources'>Key Features</Link>
+          </div>
+          {/* About us footer section */}
+          <div class='footer-link-items'>
+            <h2>About Us</h2>
+            <Link to='/About-Us'>Our Team</Link>
+            <Link to='/About-Us'>Our Project</Link>
+            <Link to='/About-Us'>Behind Our Creation</Link>
+          </div>
+        </div>
+      </div>
+      <section class='social-media'>
+        <div class='social-media-wrap'>
+          {/* Website title */}
+          <div class='footer-logo'>
+            <Link to='/' className='social-logo'>
+              Education4Kids
+            </Link>
+          </div>
+          {/* Website rights */}
+          <small class='website-rights'>E4K © 2020</small>
+          {/* Social media footer section */}
+          <div class='social-icons'>
+            <Link
+              class='social-icon-link facebook'
+              to='/'
+              target='_blank'
+              aria-label='Facebook'
+            >
+              <i class='fab fa-facebook-f' />
+            </Link>
+            <Link
+              class='social-icon-link instagram'
+              to='/'
+              target='_blank'
+              aria-label='Instagram'
+            >
+              <i class='fab fa-instagram' />
+            </Link>
+            <Link
+              class='social-icon-link youtube'
+              to='/'
+              target='_blank'
+              aria-label='Youtube'
+            >
+              <i class='fab fa-youtube' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='Twitter'
+            >
+              <i class='fab fa-twitter' />
+            </Link>
+            <Link
+              class='social-icon-link twitter'
+              to='/'
+              target='_blank'
+              aria-label='LinkedIn'
+            >
+              <i class='fab fa-linkedin' />
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
+
+export default Footer;

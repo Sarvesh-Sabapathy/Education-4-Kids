@@ -1,0 +1,14 @@
+/* Creates section for memory game instrxutions */
+.sectionMemory{
+    background-image: url('./Memory\ Photos/download.jpg');
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Changes colour of text */
+.textMemory {
+    color: #000000;
+}

@@ -1,0 +1,61 @@
+/* Size of dropdown menus */
+.dropdown-menu {
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+  }
+  
+  /* Sets colour of menu when opened */
+  .dropdown-menu li {
+    background: #1888ff;
+    cursor: pointer;
+  }
+
+  /* Changes the colour of hovered items in dropdown menu */
+  .dropdown-menu li:hover {
+    background: #5cabff;
+  }
+  
+  /* Changes display when menu is clicked */
+  .dropdown-menu.clicked {
+    display: none;
+  }
+  
+  /* Stores sizing of menu items 1 */
+  .dropdown-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+  }
+
+  /* Stores sizing of menu items 2 */
+  .dropdown-link2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+  }
+
+  /* Stores sizing of menu items 3 */
+  .dropdown-link3 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+  }
+
+  /* Displays dropdown icon */
+  @media screen and (max-width: 960px) {
+    .fa-caret-down {
+      display: none;
+    }
+  }

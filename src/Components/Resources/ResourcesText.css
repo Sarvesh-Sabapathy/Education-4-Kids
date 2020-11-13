@@ -1,0 +1,148 @@
+/* Creates Key features section */
+.sectionResources{
+    background-color: #dfdbdb;
+    padding: 2rem 0 0rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Creates section for key features subheading */
+.keyFeatures{
+    background-color: #dfdbdb;
+    padding: 1rem 4rem 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates section for key features text */
+.keyFeatures2{
+    background-color: #dfdbdb;
+    padding: 0rem 4rem 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates Help Center section */
+.sectionResources2{
+    background-color: #242424;
+    padding: 2rem 0 0rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Changes colour of help center text */
+.textResources{
+    color: #ffffff;
+}
+
+/* Creates section for help center subheading */
+.helpCenter{
+    background-color: #242424;
+    padding: 1rem 4rem 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates seperate section for objects game heading */
+.helpObjects{
+    background-color: #242424;
+    padding: 2rem 4rem 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates seperate section for objects game instructions */
+.helpObjects2{
+    background-color: #242424;
+    padding: 0rem 4rem 0rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates seperate section for memory game heading */
+.helpMemory{
+    background-color: #242424;
+    padding: 2rem 4rem 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates seperate section for memory game instructions */
+.helpMemory2{
+    background-color: #242424;
+    padding: 0rem 4rem 0rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates seperate section for definition game heading */
+.helpDefinition{
+    background-color: #242424;
+    padding: 2rem 4rem 0rem 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Creates seperate section for definition game instructions */
+.helpDefinition2{
+    background-color: #242424;
+    padding: 0rem 4rem 2rem 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Changes font size */
+.header2{
+    font-size: 24px;
+}
+
+/* Creates FAQ section */
+.sectionResources3{
+    background-color: #dfdbdb;
+    padding: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Seperates all questions and answers into individual sections of the page */
+.faq{
+    background-color: #dfdbdb;
+    padding: 0rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* Changes fonts of questions on FAQ page */
+.Q{
+    font-size: 24px;
+}
+
+
+
+

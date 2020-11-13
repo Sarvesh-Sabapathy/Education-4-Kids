@@ -1,0 +1,71 @@
+/* Aligns both coontacts and photos */
+.sectionOurTeam{
+    background-image: url('./About\ Us\ Images/2017-white-circles.jpg');
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* Displays Our Team section on about us page */
+.OurTeam{
+    background-image: url('./About\ Us\ Images/download.jpg');
+    background-size: cover;
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Changes text size */
+p{
+    font-size: 20px;
+}
+
+/* Displays first contact info */
+.sectionContact{
+    background-color: #faf6f6;
+    padding: 7.65rem 4rem 7.7rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Displays second contact info */
+.sectionContact2{
+    background-color: #faf6f6;
+    padding: 7.65rem 4rem 7.7rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Creates section for photos */
+.sectionPhoto{
+    background-color: #faf6f6;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Adjusts photo size */
+.Creator{
+    height: 300px;
+    width: 200px; 
+}
+
+/* Displays the behind our creation portion */
+.sectionCreation{
+    background-image: url('./About\ Us\ Images/download.jpg');
+    background-size: cover;
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

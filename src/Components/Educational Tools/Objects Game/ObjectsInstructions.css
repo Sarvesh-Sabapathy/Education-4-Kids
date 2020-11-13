@@ -1,0 +1,14 @@
+/* Objects game instructions section settings */
+.sectionO{
+    background-image: url('./Object\ Photos/download.jpg');
+    padding: 2rem 4rem 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Text colour chnaged to black */
+.textO {
+    color: #000000;
+}
